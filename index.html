@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<style class="cp-pen-styles">body { margin: 0; background: #333; }
+a:link{
+
+  color:green;
+}
+header { 
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+  background-color: white;
+}
+header div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+
+}
+header div img { 
+  width: 80%; 
+  height: 80%;
+
+}
+columnsTest {
+  -webkit-column-count: 2;
+  -moz-column-count:2;
+  column-count:2;
+  font-size: 200%;
+  background-color: white;
+}
+.highlight{
+background-color:white;
+}
+.menuBar{
+-webkit-box-flex: auto;
+-ms-flex: auto;
+flex:auto;
+font-size: 150%;
+background-color: gray;
+
+
+}
+@media screen and (max-width: 400px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+  
+}</style>
+<header>
+<div><img src="./moes.png" alt></div>
+</header>
+<div class="menuBar"><a href="/menu.html" data-title="Menu">Menu</a></div>
+
+
+
+<columnsTest>
+<div class="highlight">Moe s Restaurant and Cafe is open Monday through Saturday from 6:00 AM to 10:00 PM and on Sundays from 7:00 AM to 9:00 PM Anyone with questions can call Moe at (304) 384-8247.</div>
+</columnsTest>
+<body>
+
+
+<header>
+<div><img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12348150_805726932887268_2913531289307246115_n.jpg?oh=685e38f0f1c39d4d3e359e1317512cef&oe=5873EE03" alt></div>
+<div><img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/11218950_805728009553827_6448148295188439992_n.jpg?oh=b284388b11c9daad2323ddf714c67413&oe=58792A55" alt></div>
+<div><img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12369031_805727292887232_1635535911293595032_n.jpg?oh=afb1499f5731295842485e03d3c9b2eb&oe=587A7C3C" alt></div>
+<div><img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/12342793_805727179553910_6263312273602035393_n.jpg?oh=0143691806a5897f6c744c8e306bdf72&oe=58775FEC" alt></div>
+  <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+</header>
+</body>
+</html>
